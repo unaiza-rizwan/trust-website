@@ -5,8 +5,8 @@ import { Droplet, Menu, X } from 'lucide-react'
 const links = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
-  { to: '/campaigns', label: 'Campaigns' },
-  { to: '/get-involved', label: 'Get Involved' },
+  { to: '/programs', label: 'Programs' },
+  { to: '/donate', label: 'Donate' },
   { to: '/contact', label: 'Contact' },
 ]
 
@@ -55,7 +55,7 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden lg:block">
-          <NavLink to="/contact" className="btn-primary">
+          <NavLink to="/donate" className="btn-primary">
             Donate Now
           </NavLink>
         </div>

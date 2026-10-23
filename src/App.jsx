@@ -4,8 +4,10 @@ import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
-import Campaigns from './pages/Campaigns.jsx'
-import GetInvolved from './pages/GetInvolved.jsx'
+import Programs from './pages/Programs.jsx'
+import ProgramDetail from './pages/ProgramDetail.jsx'
+import Donate from './pages/Donate.jsx'
+import Impact from './pages/Impact.jsx'
 import Contact from './pages/Contact.jsx'
 
 function ScrollToTop() {
@@ -25,8 +27,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/campaigns" element={<Campaigns />} />
-          <Route path="/get-involved" element={<GetInvolved />} />
+          <Route path="/programs" element={<Programs />} />
+          <Route path="/programs/:slug" element={<ProgramDetail />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/impact" element={<Impact />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>

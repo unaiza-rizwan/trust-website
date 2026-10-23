@@ -19,8 +19,8 @@ export default function Footer() {
           <h4 className="eyebrow mb-4">Explore</h4>
           <ul className="space-y-2 text-sm">
             <li><NavLink to="/about" className="hover:text-gold-400 transition-colors">About Us</NavLink></li>
-            <li><NavLink to="/campaigns" className="hover:text-gold-400 transition-colors">Campaigns</NavLink></li>
-            <li><NavLink to="/get-involved" className="hover:text-gold-400 transition-colors">Get Involved</NavLink></li>
+            <li><NavLink to="/programs" className="hover:text-gold-400 transition-colors">Programs</NavLink></li>
+            <li><NavLink to="/donate" className="hover:text-gold-400 transition-colors">Get Involved</NavLink></li>
             <li><NavLink to="/contact" className="hover:text-gold-400 transition-colors">Contact</NavLink></li>
           </ul>
         </div>

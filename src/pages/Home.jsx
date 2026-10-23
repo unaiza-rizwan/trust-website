@@ -89,8 +89,8 @@ export default function Home() {
                 Recent stories
               </h2>
             </div>
-            <NavLink to="/campaigns" className="text-gold-400 text-sm font-medium hover:underline flex items-center gap-1">
-              View all campaigns <ArrowRight className="h-4 w-4" />
+            <NavLink to="/programs" className="text-gold-400 text-sm font-medium hover:underline flex items-center gap-1">
+              View all programs <ArrowRight className="h-4 w-4" />
             </NavLink>
           </div>
 

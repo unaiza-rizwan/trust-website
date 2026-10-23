@@ -6,7 +6,7 @@ import ProjectModal from '../components/ProjectModal.jsx'
 
 const filters = ['All', 'Active', 'Urgent', 'Completed']
 
-export default function Campaigns() {
+export default function Programs() {
   const [projects, setProjects] = useLocalStorage('wellspring_projects', initialProjects)
   const [filter, setFilter] = useState('All')
   const [selected, setSelected] = useState(null)
@@ -25,12 +25,12 @@ export default function Campaigns() {
   return (
     <div>
       <section className="bg-teal-950 section-pad !pb-14">
-        <p className="eyebrow">Campaigns</p>
+        <p className="eyebrow">Programs</p>
         <h1 className="font-display text-4xl md:text-5xl font-semibold mt-3 text-sand-50 max-w-2xl">
-          Projects you can watch grow
+          Programs you can watch grow
         </h1>
         <p className="mt-4 text-sand-100/70 max-w-xl">
-          Every campaign below is tracked in real time, from first dollar to final handover.
+          Every program below is tracked in real time, from first dollar to final handover.
         </p>
       </section>
 
